@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.label_{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainblock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+
+}
+
+.title{
+    font-size: 27px;
+}
+
+.first__col , .second__col{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.what_need{
+    font-size: 17px;
+}
+
+.icon{
+    transform: scale(1.10);
+    padding-right: 10px;
+}
+
+.space input{
+    border: 1px solid rgba(128, 128, 128, 0.492);
+    width: 400px;
+    height: 30px;
+    padding: 0 0 0 5px;
+}
+
+.state_zip , .expiration_cvv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.state_zip input , .expiration_cvv input{
+    width: 170px;
+}
+
+.cards__img{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+.cards__img img{
+    width: 40px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.expiration_cvv{
+    display: flex;
+}
+
+.error{
+    border: red 1px solid!important;
+}
+
+.submit{
+    margin-top: 20px;
+    width: 900px;
+    height: 30px;
+}
+
+.img_input{
+    width: 40px;
+    height: 30px;
+    transform: translateX(-25px);
+    object-fit: cover;
+
+}
+
+.input_type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transform: translateX(-338px);
+    margin-top: 20px;
+}
+
+.second__col{
+    margin-top: 20px;
+}
